@@ -1,4 +1,5 @@
 # Pong
+
 Welcome to Pong! This is a classic arcade game where players control paddles to hit a ball back and forth. The objective is to score points by making the ball pass the opponent's paddle.
 
 ## Features
@@ -26,10 +27,10 @@ $ git clone https://github.com/DelicaTessa/Java-Pong
 
 - To play against the CPU, follow these steps:
   - Open your Integrated Development Environment (IDE).
-  - Locate the `Game.java` file.
+  - Locate the `Game.java` file in the `src` folder.
   - Look for line 11, which reads:
     ```java
-    Pong content = new Pong(Player.MOUSE, Player.KEYBOARD);
+    Pong content = new Pong(Player.KEYBOARD, Player.CPU_EASY);
     ```
   - Replace the first parameter with either `CPU.EASY` or `CPU.HARD` depending on your desired CPU difficulty level.
   - For the second parameter, choose either `Player.MOUSE` or `Player.KEYBOARD` based on whether you want to control your paddle using the mouse or keyboard.
@@ -38,10 +39,10 @@ $ git clone https://github.com/DelicaTessa/Java-Pong
 
 - To play a multiplayer game, follow these steps:
   - Open your Integrated Development Environment (IDE).
-  - Locate the `Game.java` file.
+  - Locate the `Game.java` file in the `src` folder.
   - Look for line 11, which reads:
     ```java
-    Pong content = new Pong(Player.MOUSE, Player.KEYBOARD);
+    Pong content = new Pong(Player.KEYBOARD, Player.CPU_EASY);
     ```
   - Set the first parameter to `Player.MOUSE`.
   - Set the second parameter to `Player.KEYBOARD`.
